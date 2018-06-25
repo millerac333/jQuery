@@ -35,7 +35,7 @@ $(document).ready(function() {
                     $("<h1>")
                     .addClass("song_title")
                     .text(element.title)
-                    $("<section>").append($("<h4>"))
+                    $("<section>.song").append($("<h1>.song_title"))
 
                     $("<section>")
                     .addClass("song_description")
